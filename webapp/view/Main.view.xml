@@ -1,0 +1,15 @@
+<mvc:View controllerName="IU.ImageUploder.controller.Main" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:u="sap.ui.unified">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<u:FileUploader id="fileUploader"/>
+				<Button text="Upload" type="Accept" press="onUploadImage"/>
+				<Image id = "imageId" decorative = "false"></Image>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
