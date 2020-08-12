@@ -4,6 +4,8 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
+						<Text text="Lokesh changed code"></Text>
+							<Text text="Lokesh changed code2"></Text>
 						<u:FileUploader id="fileUploader"/>
 				<Button text="Upload" type="Accept" press="onUploadImage"/>
 				<Image id = "imageId" decorative = "false"></Image>
